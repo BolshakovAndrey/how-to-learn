@@ -35,6 +35,7 @@
   margin: 0 0 0 64px;
   width: 730px;
   z-index: 3;
+
 }
 
 .header__subtitle{
@@ -47,6 +48,9 @@
   font-weight: normal;
   margin: 0;
   padding: 0;
+}
+.header__link{
+  color: #2f80ed;
 }
 .header__main-illustration{
   position: absolute;
@@ -245,7 +249,6 @@
   margin: 0 auto;
 
 }
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -261,4 +264,73 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+.footer{
+  display: flex;
+  min-height: 350px;
+  padding-top: 60px;
+  background-color: #1f1f1f;
+}
+.footer__columns{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  position: relative;
+  width: 90%;
+}
+.footer__column_content_copyright{
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+.logo_place_footer{
+  width: 183px;
+  height: 35px;
+}
+.footer__author{
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  position: absolute;
+  bottom: 0;
+  }
+.footer__column_content_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+.footer__column-links{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: space-between;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  /*margin-top: 20px;*/
+  /*margin-bottom: 16px;*/
+  padding: 0;
+  text-decoration: none;
+}
+.footer__column-link{
+  color: white;
+}
+.footer__column-heading{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0 auto 20px auto;
+  padding: 0;
+}
+.footer__social-icon{
+  height: 16px;
+  margin: 8px 8px 0 0;
 }
