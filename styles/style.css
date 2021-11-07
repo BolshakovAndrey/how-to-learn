@@ -139,7 +139,7 @@
   margin: 0 auto;
   text-align: center;
   padding: 0;
-  z-index: 2
+  z-index: 2;
 }
 
 .table {
@@ -223,10 +223,6 @@
   overflow: hidden;
   position: relative;
   background-color: #1f1f1f;
-}
-
-.table_theme_dark {
-  z-index: 1
 }
 
 .kaufman__triangle {
