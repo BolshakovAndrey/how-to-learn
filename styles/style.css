@@ -12,6 +12,7 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
+  z-index: 1;
 }
 
 .logo_place_header {
@@ -20,7 +21,6 @@
   left: 64px;
   height: 32px;
   width: 183px;
-  z-index: 3;
 }
 
 .header__title {
@@ -31,7 +31,7 @@
   padding: 0;
   margin: 0 0 0 64px;
   max-width: 730px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -44,13 +44,12 @@
   font-weight: normal;
   margin: 0;
   padding: 0;
-  z-index: 3;
+  z-index: 2;
 }
 
 .header__link {
   color: #2f80ed;
   text-decoration: none;
-  z-index: 3;
 }
 
 .header__main-illustration {
@@ -69,7 +68,7 @@
   background-color: #2f80ed;
   top: 64px;
   right: 0;
-  z-index: 1;
+  z-index: -1;
 }
 
 .two-columns {
