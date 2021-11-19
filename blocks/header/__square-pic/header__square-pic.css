@@ -6,4 +6,9 @@
   top: 64px;
   right: 0;
   z-index: -1;
+  /*animation*/
+  animation-name: rotation;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }

@@ -56,7 +56,6 @@
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
-
 /*khan*/
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__author/khan__author.css);
