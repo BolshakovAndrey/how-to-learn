@@ -5,3 +5,8 @@
   font-weight: normal;
   color: #2f80ed;
 }
+
+.khan__book-link:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
+}
