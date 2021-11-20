@@ -29,7 +29,7 @@
 
 Клонируйте репозиторий:
 
-`https://github.com/BolshakovAndrey/how-to-learn.git`
+`git clone https://github.com/BolshakovAndrey/how-to-learn.git`
 
 ## Планируемые доработки:
 1. подключить другие шрифты;
