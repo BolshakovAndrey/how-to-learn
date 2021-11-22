@@ -1,11 +1,8 @@
 .cards {
   max-width: 920px;
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: auto;
   padding: 0;
-}
-
-.cards:nth-child(3) {
-  flex-wrap: wrap;
 }
